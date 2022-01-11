@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '808acea0dacfa7a42525d38bc9b6fe9855f4b862',
         'name' => 'johnfortes/ecommerce',
         'dev' => true,
     ),
     'versions' => array(
         'johnfortes/ecommerce' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '808acea0dacfa7a42525d38bc9b6fe9855f4b862',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(
