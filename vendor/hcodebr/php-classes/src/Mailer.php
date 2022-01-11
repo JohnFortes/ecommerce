@@ -7,7 +7,7 @@ use Rain\Tpl;
 class Mailer{
 
 	const USERNAME = "johnlbfortes@gmail.com";
-	const PASSWORD = "626874jlbf";
+	const PASSWORD = "";
 	const NAME_FROM = "JS cases";
 
 	private $mail;
@@ -98,7 +98,7 @@ class Mailer{
 
 	public function send()
 	{
-		
+
 		return $this->mail->send();
 
 	}
