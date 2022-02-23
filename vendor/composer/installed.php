@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '808acea0dacfa7a42525d38bc9b6fe9855f4b862',
+        'reference' => '60e5ead5f07f6bf84e644af92ab7534b9955a5cf',
         'name' => 'johnfortes/ecommerce',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '808acea0dacfa7a42525d38bc9b6fe9855f4b862',
+            'reference' => '60e5ead5f07f6bf84e644af92ab7534b9955a5cf',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(
