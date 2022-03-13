@@ -212,7 +212,7 @@ class Cart extends Model {
 				'nCdEmpresa'=>'',
 				'sDsSenha'=>'',
 				'nCdServico'=>'40010',
-				'sCepOrigem'=>'80410210',
+				'sCepOrigem'=>'83403045',
 				'sCepDestino'=>$nrzipcode,
 				'nVlPeso'=>$totals['vlweight'],
 				'nCdFormato'=>'1',
@@ -292,6 +292,10 @@ class Cart extends Model {
 
 			$this->setFreight($this->getdeszipcode());
 
+		}else{
+
+			$this->setFreight(0);
+
 		}
 	}
 
@@ -313,6 +317,7 @@ class Cart extends Model {
 
 		$this->setvlsubtotal($totals['vlprice']);
 		$this->setvltotal($totals['vlprice'] + $this->getvlfreight());
+
 	}
 
 }
